@@ -2,7 +2,7 @@
 A docker container for running ansible and the [HypercoreAnsibleCollection](https://github.com/ScaleComputing/HyperCoreAnsibleCollection).
 
 ## Setup
-Install [Dockerdesktop](https://www.docker.com/products/docker-desktop/).
+Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 Setup local environment variables to set username, password, and host (target node in a Hypercore cluster).
 
