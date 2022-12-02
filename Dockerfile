@@ -26,10 +26,6 @@ RUN cd /root && git clone https://github.com/ScaleComputing/HyperCoreAnsibleColl
 RUN . /root/.venv/bin/activate && cd /root/HyperCoreAnsibleCollection && ansible-galaxy collection install community.general
 RUN . /root/.venv/bin/activate && cd /root/HyperCoreAnsibleCollection && ansible-galaxy collection install scale_computing.hypercore
 
-ENV SC_USERNAME admin
-ENV SC_PASSWORD <PASSWORD>
-ENV SC_HOST https://scalecluster.example.com
-
 WORKDIR /root
 
 ENTRYPOINT [ "/bin/bash" ]

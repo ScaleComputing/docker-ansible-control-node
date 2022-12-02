@@ -10,3 +10,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      SC_USERNAME: ${SC_USERNAME}
+      SC_PASSWORD: ${SC_PASSWORD}
+      SC_HOST: ${SC_HOST}
